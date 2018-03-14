@@ -12,3 +12,5 @@ const qsort = arr => {
         return [...qsort(less), pivot, ...qsort(more)];
     }
 }
+
+console.log(qsort(arr));
